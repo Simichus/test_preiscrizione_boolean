@@ -1,0 +1,86 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+main{
+  width: 70%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 25px;
+}
+
+main div{
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.text{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+  color: lime;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bodypage{
+  width: 80%;
+  margin: auto;
+}
+
+.input_buttons{
+  background-color: lime;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.info_monopattino, .posizione, .charge{
+  text-align: left;
+    color: white;
+}
+
+.info_monopattino{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.monopattino{
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.posizione:before{
+  content: "\21A6";
+}
+
+.chargebar1{
+  background-color: orange;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.chargebar2{
+  background-color: lime;
+  width: 75%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.chargebar3{
+  background-color: red;
+  width: 15%;
+  height: 30px;
+  border-radius: 10px;
+}
